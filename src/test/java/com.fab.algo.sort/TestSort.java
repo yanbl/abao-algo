@@ -1,6 +1,7 @@
 package com.fab.algo.sort;
 
 import com.fab.algo.sort.impl.BubblingSort;
+import com.fab.algo.sort.impl.InsertSort;
 import org.junit.Test;
 
 /**
@@ -16,6 +17,13 @@ public class TestSort {
     @Test
     public void testBubblingSort(){
         SortBase sb = new BubblingSort();
+        sb.sort(a);
+    }
+
+
+    @Test
+    public void testInsertSort(){
+        SortBase sb = new InsertSort();
         sb.sort(a);
     }
 }
