@@ -2,6 +2,7 @@ package com.fab.algo.sort;
 
 import com.fab.algo.sort.impl.BubblingSort;
 import com.fab.algo.sort.impl.InsertSort;
+import com.fab.algo.sort.impl.QuerySort;
 import org.junit.Test;
 
 /**
@@ -24,6 +25,13 @@ public class TestSort {
     @Test
     public void testInsertSort(){
         SortBase sb = new InsertSort();
+        sb.sort(a);
+    }
+
+
+    @Test
+    public void testQuerySort(){
+        SortBase sb = new QuerySort();
         sb.sort(a);
     }
 }
