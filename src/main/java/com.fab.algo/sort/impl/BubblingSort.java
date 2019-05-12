@@ -1,5 +1,6 @@
 package com.fab.algo.sort.impl;
 
+import com.alibaba.fastjson.JSONObject;
 import com.fab.algo.sort.SortBase;
 
 /**
@@ -20,9 +21,12 @@ public class BubblingSort implements SortBase {
         if (toSortData == null || toSortData.length <= 1) {
             return;
         }
+
+        System.out.println("before sort data:"+JSONObject.toJSONString(toSortData));
+
         int n = toSortData.length;
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n - i - j; j++) {
+            for (int j = 0; j < n - i - 1; j++) {
                 if (isReverse) {
                     if (toSortData[j] < toSortData[j + 1]) {
                         int temp = toSortData[j];
@@ -42,5 +46,8 @@ public class BubblingSort implements SortBase {
                 }
             }
         }
+
+        System.out.println("after sort data:"+JSONObject.toJSONString(toSortData));
+
     }
 }
