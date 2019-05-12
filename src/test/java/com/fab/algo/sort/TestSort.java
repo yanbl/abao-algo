@@ -1,8 +1,5 @@
 package com.fab.algo.sort;
 
-import com.fab.algo.sort.impl.BubblingSort;
-import com.fab.algo.sort.impl.InsertSort;
-import com.fab.algo.sort.impl.QuerySort;
 import org.junit.Test;
 
 /**
@@ -18,7 +15,7 @@ public class TestSort {
     public void testBubblingSort(){
         int[] a = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 15, 16, 18};
 
-        SortBase sb = new BubblingSort();
+        BubblingSort sb = new BubblingSort();
         sb.sort(a);
 
     }
@@ -28,7 +25,7 @@ public class TestSort {
     public void testInsertSort(){
         int[] a = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 15, 16, 18};
 
-        SortBase sb = new InsertSort();
+        InsertSort sb = new InsertSort();
         sb.sort(a);
     }
 
@@ -37,7 +34,15 @@ public class TestSort {
     public void testQuerySort(){
         int[] a = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 15, 16, 18};
 
-        SortBase sb = new QuerySort();
+        QuerySort sb = new QuerySort();
         sb.sort(a);
+    }
+
+    @Test
+    public void testMergeSort(){
+        int[] a = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 15, 16, 18};
+
+        MergeSort sb = new MergeSort();
+        sb.mergeSort(a);
     }
 }

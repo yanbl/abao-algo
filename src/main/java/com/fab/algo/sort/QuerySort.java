@@ -1,7 +1,6 @@
-package com.fab.algo.sort.impl;
+package com.fab.algo.sort;
 
 import com.alibaba.fastjson.JSONObject;
-import com.fab.algo.sort.SortBase;
 
 /**
  * @Author: yanbl
@@ -9,12 +8,17 @@ import com.fab.algo.sort.SortBase;
  * @Date: Created in 2:54 PM 2019/5/12
  * @Modified:
  */
-public class QuerySort extends SortBase.SortBaseImpl {
+public class QuerySort{
+
+    public void sort(int[] toSortData) {
+        sort(toSortData, false);
+    }
 
     public void sort(int[] toSortData, boolean isReverse) {
         if (toSortData == null || toSortData.length <= 1) {
             return;
         }
+        Long b = System.currentTimeMillis();
         System.out.println("before QuerySort sort data:" + JSONObject.toJSONString(toSortData));
 
         for (int i = 0; i < toSortData.length; i++) {
@@ -37,7 +41,7 @@ public class QuerySort extends SortBase.SortBaseImpl {
                 toSortData[n] = temp;
             }
         }
-        System.out.println("after QuerySort sort data:" + JSONObject.toJSONString(toSortData));
+        System.out.println("after QuerySort sort data:" + JSONObject.toJSONString(toSortData) + ",use " + (System.currentTimeMillis() - b) + "ms");
 
     }
 }
