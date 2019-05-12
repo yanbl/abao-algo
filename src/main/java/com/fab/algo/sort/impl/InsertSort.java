@@ -6,7 +6,7 @@ import com.fab.algo.sort.SortBase;
 
 /**
  * @Author: yanbl
- * @Description:
+ * @Description: 插入排序
  * @Date: Created in 2:11 PM 2019/5/12
  * @Modified:
  */

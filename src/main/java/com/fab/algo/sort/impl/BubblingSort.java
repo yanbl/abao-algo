@@ -5,7 +5,7 @@ import com.fab.algo.sort.SortBase;
 
 /**
  * @Author: yanbl
- * @Description: 冒泡排序算法
+ * @Description: 冒泡排序
  * @Date: Created in 1:29 PM 2019/5/12
  * @Modified:
  */
