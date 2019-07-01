@@ -2,7 +2,7 @@ package com.fab.algo.search;
 
 /**
  * @Author: yanbl
- * @Description:
+ * @Description: 二分查找
  * @Date: Created in 3:24 PM 2019/5/18
  * @Modified:
  */
