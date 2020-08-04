@@ -1,0 +1,7 @@
+
+msquid:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(«ó÷äıÿÿÿÿ8¾êİµ«.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(´é·8¾êİµ«.
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÿ²Év8İö×µ«.
+dsquid:S2095"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(Ùƒ°­8ÀÏÒµ«.

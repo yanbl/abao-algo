@@ -1,0 +1,38 @@
+package com.fab.algo.test;
+
+/**
+ * @Author: yanbl
+ * @Description:
+ * @Date: Created in 2:02 PM 2020/6/16
+ * @Modified:
+ */
+public class UnsignedByte {
+
+    public short getValue(byte i){
+        short li = (short) (i & 0xff);
+        return li;
+    }
+
+    public byte toUnsignedByte(short i){
+        byte li = (byte)(i & 0xff);
+        return li;
+    }
+
+    public static void main(String[] args){
+        UnsignedByte ins = new UnsignedByte();
+        short[] shorts = new short[256];
+        for(int i=0;i<shorts.length;i++){
+            shorts[i] = (short)i;
+        }
+
+        byte[] bytes = new byte[256];
+        for(int i=0;i<bytes.length;i++){
+            bytes[i] = ins.toUnsignedByte(shorts[i]);
+        }
+
+        for(int i=0;i<bytes.length;i++){
+            System.out.println(ins.getValue(bytes[i])+" ");
+        }
+    }
+
+}

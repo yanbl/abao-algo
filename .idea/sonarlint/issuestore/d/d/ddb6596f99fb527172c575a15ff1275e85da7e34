@@ -1,0 +1,6 @@
+
+=squid:S1643"Use a StringBuilder instead.(┴В┐╧∙    8цаш╢м.
+msquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(уя■и°    8цаш╢м.
+[squid:S1118":Add a private constructor to hide the implicit public one.(ы╥к╝¤    8цаш╢м.
+Rsquid:UselessImportCheck")Remove this unused import 'java.io.File'.(Ж╨е┼8цаш╢м.
+Dsquid:S1148"#Use a logger to log this exception.(А╔╘Е¤    8цаш╢м.

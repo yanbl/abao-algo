@@ -23,56 +23,39 @@ public class MergeSort {
     }
 
     private void merge(int[] dataArr, int p, int r) {
-        if (p >= r) {
+        if (p == r) {
             return;
         }
 
-        int q = (p + r) / 2;
-        int n = q + 1;
+        int q = p+((r-p) >> 1);
 
-        int[] bb = new int[n];
-        int[] cc = new int[r - q];
-        System.arraycopy(dataArr, p, bb, 0, n);
-        System.arraycopy(dataArr, q + 1, cc, 0, r - q);
+        merge(dataArr, p, q);
+        merge(dataArr, q+1, r);
 
-        merge(bb, 0, bb.length - 1);
-        merge(cc, 0, cc.length - 1);
-
-        sort(dataArr, bb, cc);
+        sort(dataArr, p,q, r);
 
     }
 
-    private void sort(int[] dataArr, int[] bb, int[] cc) {
+    private void sort(int[] dataArr, int l, int m,int r) {
 
-        int i = 0, j = 0, k = 0;
-        int[] dataTemp = new int[dataArr.length];
+        int i = 0, j = l, k = m+1;
+        int[] dataTemp = new int[r-l+1];
 
-        while (i < bb.length && j < cc.length) {
-            if (bb[i] > cc[j]) {
-                dataTemp[k++] = cc[j++];
-            } else {
-                dataTemp[k++] = bb[i++];
-            }
+        while (j <=m && k <= r) {
+            dataTemp[i++] = dataArr[j]<dataArr[k]?dataArr[j++]:dataArr[k++];
         }
 
-        int start = i, end = bb.length;
-        boolean isB = true;
-        if (j < cc.length) {
-            start = j;
-            end = cc.length;
-            isB = false;
+        while(j<=m){
+            dataTemp[i++] = dataArr[j++];
         }
 
-        while (start < end) {
-            if (isB) {
-                dataTemp[k++] = bb[start++];
-            } else {
-                dataTemp[k++] = cc[start++];
-            }
+        while(k<=r){
+            dataTemp[i++] = dataArr[k++];
         }
 
-        for (int i1 = 0; i1 < dataArr.length; i1++) {
-            dataArr[i1] = dataTemp[i1];
+
+        for (int i1 = 0; i1 < dataTemp.length; i1++) {
+            dataArr[l+i1] = dataTemp[i1];
         }
     }
 }

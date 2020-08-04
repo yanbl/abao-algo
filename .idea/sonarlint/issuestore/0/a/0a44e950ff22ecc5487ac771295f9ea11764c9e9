@@ -1,0 +1,17 @@
+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªœ½Ó8üÀÃ«.
+Fsquid:S00108")Either remove or fill this block of code.(”ı¾8ú•¾Ã«.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÕÊ¦—8€ğ¢Ã«.
+csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(œïì”8üÀÃ«.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(®£ò»8ö £Ã«.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŒèÏ8Û¹ÅÃ«.
+hsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(†à‹Îşÿÿÿÿ8üÀÃ«.
+\squid:S2259"@A "NullPointerException" could be thrown; "o1" is nullable here.(®£ò»8×·®Ã«.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªœ½Ó8«‰ºÃ«.
+hsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(†à‹Îşÿÿÿÿ8±”²Ã«.
+csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(œïì”8Õ¯Ã«.

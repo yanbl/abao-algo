@@ -1,0 +1,8 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ş‚¦ğûÿÿÿÿ8ç¤§Æ«.
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ú‹\8è´›Æ«.
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8½ÿÆ«.
+Hsquid:S001082")Either remove or fill this block of code.(”ı¾8„¶Æ«.
+Xsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8ßÎ˜Æ«.

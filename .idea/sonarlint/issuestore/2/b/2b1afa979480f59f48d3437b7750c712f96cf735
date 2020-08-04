@@ -1,0 +1,8 @@
+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¯‚¯ñ8Í²¨˜¨.
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹‘ãëúÿÿÿÿ8ÜÓ§˜¨.
+hsquid:UselessImportCheck"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8ÜÓ§˜¨.
+bsquid:UselessImportCheck"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8ÜÓ§˜¨.
+`squid:UselessImportCheck"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8ÜÓ§˜¨.

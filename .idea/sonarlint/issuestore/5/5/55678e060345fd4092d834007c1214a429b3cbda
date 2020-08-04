@@ -1,0 +1,10 @@
+
+\squid:UselessImportCheck"1Remove this unused import 'java.math.BigDecimal'.(êêŠ8«øìÙ€.
+Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(•“´Şÿÿÿÿÿ8¨ÅÇÌÿ-
+Isquid:S1481"&Remove this unused "d" local variable.(çÔÊÿÿÿÿÿ8–°ïÙ€.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ó¦®‹üÿÿÿÿ8¨ÅÇÌÿ-
+asquid:S1226">Introduce a new variable instead of reusing the parameter "v".(®Ÿ¤Èøÿÿÿÿ8¨ÅÇÌÿ-
+V
+squid:S106!"9Replace this use of System.out or System.err by a logger.(Áß‡Ü8ÉüïÙ€.
+Xsquid:S1854"5Remove this useless assignment to local variable "d".(„ÓÌ÷ıÿÿÿÿ8–°ïÙ€.
+`squid:UselessImportCheck"0Remove this unused import 'sun.tools.tree.Node'.(•“´Şÿÿÿÿÿ8¨ÅÇÌÿ-

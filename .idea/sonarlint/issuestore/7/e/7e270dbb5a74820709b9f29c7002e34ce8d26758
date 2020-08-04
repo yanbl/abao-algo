@@ -1,0 +1,9 @@
+
+Dsquid:S1604"(Make this anonymous inner class a lambda(ÉãÃ®8Ö„„ˆ¬.
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ö„„ˆ¬.
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‡áˆ¬.
+Vsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(ŒºÙ8‡áˆ¬.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹À³‚8äÔ‚ˆ¬.
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Ö„„ˆ¬.
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8‡áˆ¬.

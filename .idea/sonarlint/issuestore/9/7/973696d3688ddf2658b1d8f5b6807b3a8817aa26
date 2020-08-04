@@ -1,0 +1,10 @@
+
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½ûÑÐúÿÿÿÿ8“œ›Ñÿ-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï¦—¥8¯•×œù-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿ÆÖÛùÿÿÿÿ8•ú×œù-
+Gsquid:S1481"&Remove this unused "d" local variable.(äŒí†ûÿÿÿÿ8ÕªÙœù-
+bsquid:UselessImportCheck"4Remove this unused import 'java.util.LinkedHashMap'.(ò†ŠÞùÿÿÿÿ8†ÌÀ¡ù-
+Bsquid:S1481"&Remove this unused "f" local variable.(«¼›ž8áúÙœù-
+Qsquid:S1854"5Remove this useless assignment to local variable "f".(«¼›ž8áúÙœù-
+Vsquid:S1854"5Remove this useless assignment to local variable "d".(äŒí†ûÿÿÿÿ8ÕªÙœù-

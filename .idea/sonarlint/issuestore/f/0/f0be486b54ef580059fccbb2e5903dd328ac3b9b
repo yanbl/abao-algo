@@ -1,0 +1,18 @@
+
+Qsquid:S1854"5Remove this useless assignment to local variable "a".(ÿÍèõ8ˆ™˜Š’.
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(—ãéB8„‹ş‚‘.
+xsquid:UselessImportCheck"JRemove this unused import 'com.fab.algo.PlaceTheOrderThirdPlatformReqDto'.(²å…‚ûÿÿÿÿ8¨Ä¢§Š.
+Ysquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8½ÿ›ñ‚.
+Rsquid:S1854"6Remove this useless assignment to local variable "be".(ÒØÒØ8û°õ™–.
+Bsquid:S2129"!Remove this "Integer" constructor(€¤Õôúÿÿÿÿ8ûãÍ†‘.
+Bsquid:S1481"&Remove this unused "o" local variable.(âÌ—ë8„‹ş‚‘.
+Bsquid:S1481"&Remove this unused "a" local variable.(ÿÍèõ8ˆ™˜Š’.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹À³‚8îÛï™–.
+Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8äÄ‚‘.
+`squid:UselessImportCheck"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8¶Îì«Š.
+Qsquid:S1854"5Remove this useless assignment to local variable "o".(âÌ—ë8„‹ş‚‘.
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹èÇ8Šã•Š’.
+[squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8äÄ‚‘.
+§%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8îÛï™–.

@@ -1,0 +1,6 @@
+
+Dsquid:S1444")Make this "public static map" field final(ğÏ·p8Ëœ¦†ä-
+Usquid:S1118":Add a private constructor to hide the implicit public one.(Ş³ß8¨Ş¤†ä-
+bsquid:S1126"AReplace this if-then-else statement by a single return statement.(êÆ¦íşÿÿÿÿ8¨ñğ†ä-
+8squid:S2386"Make this member "protected".(ğÏ·p8Ëœ¦†ä-
+"squid:ClassVariableVisibilityCheck"OMake map a static final constant or non-public and provide accessors if needed.(ğÏ·p8Ëœ¦†ä-

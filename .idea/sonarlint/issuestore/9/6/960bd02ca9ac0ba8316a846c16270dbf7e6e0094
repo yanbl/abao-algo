@@ -1,0 +1,8 @@
+
+Tsquid:S1854"6Remove this useless assignment to local variable "c1".(õê£¡8¨ÌƒÒ­.
+?squid:S2440"!Remove this instantiation of "C".(õê£¡8ôÏÃŞ­.
+]squid:UselessImportCheck"-Remove this unused import 'java.util.Vector'.(ÿŒ¸Áÿÿÿÿÿ8Â¹ŞÑ­.
+Esquid:S1481"'Remove this unused "c1" local variable.(õê£¡8¨ÌƒÒ­.
+?squid:S2440"!Remove this instantiation of "C".(—çÇ¢8ôÏÃŞ­.
+Ssquid:S1854"5Remove this useless assignment to local variable "c".(—çÇ¢8à…ƒÒ­.
+Dsquid:S1481"&Remove this unused "c" local variable.(—çÇ¢8à…ƒÒ­.

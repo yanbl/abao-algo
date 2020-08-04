@@ -1,0 +1,6 @@
+
+šsquid:S1845Q"wRename method "getOuterOrderId" to prevent any misunderstanding/clash with method "getOuterOrderID" defined on line 72.(¦ÃÏ…ùÿÿÿÿ8¬œ˜ñ‚.
+squid:S1845"oRename field "outerOrderId" to prevent any misunderstanding/clash with field "outerOrderID" defined on line 28.(ÊÃôü8¬œ˜ñ‚.
+•squid:S1845U"wRename method "setOuterOrderId" to prevent any misunderstanding/clash with method "setOuterOrderID" defined on line 76.(ˆæôÚ8¬œ˜ñ‚.
+[
+squid:S106b"9Replace this use of System.out or System.err by a logger.(´½ËÌüÿÿÿÿ8ÛÄšñ‚.
